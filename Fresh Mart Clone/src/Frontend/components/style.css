@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.ui.icon.input{
+    width: 40%;
+}
+#headicon{
+    font-size: 25px;
+    margin-left: 45px;
+}
+.shopping.cart.icon{
+    color: green;
+    cursor: pointer;
+
+}
+.bars.icon{
+    color: #78b144;
+    cursor: pointer;
+
+}
+.ui.icon.input input{
+    border:1px solid #78b144 !important;
+}
+.circular.search.link.icon{
+    color: #78b144;
+
+}
+#headli{
+    padding: 0;
+    border: solid 1px green;  
+}
+#headli li{
+    font-size: 20px;
+    font-family: cursive;
+    list-style: none;
+    /* text-align: center; */
+    padding-left: 50px;
+    border: solid 1px green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    cursor: pointer;
+}
+.menutoogle{
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    width: inherit;
+    top: 0;
+    /* background: white; */
+}
+.hideshow{
+    display: none;
+}
+.imgofflow{
+    position: absolute;
+    top: 0;
+
+}
+.productflex{
+    display: flex;
+    justify-content: center;
+}
+.flexofproduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 46px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.flexofproduct img{
+    width: 50px;
+    /* justify-content: center; */
+    height: 30px;
+}
+
+.flexofproduct span{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "cursive";
+    z-index: 5;
+}
+.paraofpro{
+    text-align: center;
+    margin: 0;
+    font-family: cursive;
+}
+.headlineofpro{
+    text-align: center;
+    margin: 0;
+    font-family: cursive;
+    font-size: 45px;
+}
+.productflex{
+    overflow: hidden;
+}
+.flexofproduct img:last-child{
+    height: 40px;
+    position: absolute;
+    width: 125px;
+    background-repeat: no-repeat;
+    background-size: contain;
+top:-40px
+}
+
+
+
+.loginpageofadmin{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}
+.loginpageofadmin form{
+    padding: 50px;
+    border: solid 1px;
+    font-size: 30px;
+}
+.loginpageofadmin button{
+    margin-top: 20px;
+}
+.sideof{
+    list-style: none;
+    background: black;
+    color: white;
+    font-family: cursive;
+    padding: 0;
+    /* align-items: center; */
+    /* margin-top: 20%; */
+}
+.ulstyle{
+    list-style: none;
+    /* margin: 277px; */
+    padding: 0;
+    margin-top: 30%;
+}
+.ulstyle li {
+        /* margin: 50px 0px; */
+    /* border-top: solid 1px; */
+    border-bottom: solid 1px;
+    padding: 30px 30px;
+    cursor: pointer;
+}
